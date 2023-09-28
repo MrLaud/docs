@@ -1,7 +1,9 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
+import "element-plus/dist/index.css";
 import './style.css'
+
 
 export default {
   extends: Theme,
@@ -11,6 +13,9 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    import("element-plus").then((module) => {
+      app.use(module);
+    });
   }
+  
 }

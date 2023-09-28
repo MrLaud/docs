@@ -16,5 +16,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "deploy": "deploy.sh"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.14"
   }
 }
