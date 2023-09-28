@@ -21,8 +21,10 @@
                 <div style="margin:8px 5px 10px 8px;font-size:16px;font-weight:bold">常用标签</div>
                 <div style="border-top-style:solid;border-width:1px;border-color:#e2e8f0;"></div>
                 <div style="padding: 10px; display: flex;flex-wrap: wrap;">
-                    <div v-for="item in list" :key="item" class="home-item">
-                        <el-col :xs="24" :sm="20" :md="18" :lg="18" :xl="13">
+                    <div></div>
+
+                    <!-- <div v-for="item in list" :key="item" class="home-item">
+                        <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">
                             <div 
                             style="
                                 display: flex;
@@ -39,7 +41,7 @@
                                 </div>
                             </div>
                         </el-col>
-                    </div>
+                    </div> -->
 
 
                 </div>
